@@ -8,7 +8,7 @@
 
 **Figma**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/StZjf8HnoeLdiXS7dYrLAh/JavaScript.-Sprint-4)
+* [Ссылка на макет в Figma](https://www.figma.com/file/aMCLhhIgR00eS3ezLeESsT/JavaScript.-Sprint-4?node-id=0%3A1)
 
 **Картинки**
 
