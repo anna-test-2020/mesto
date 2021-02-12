@@ -1,14 +1,14 @@
 # Проект 4: Место
 
 ### Обзор
-### Это учебный сайт 
+#### Это учебный сайт 
 Предназначен для тренировки навыков java script. 
 
 В проекте использованы технологии **java script**, **html5**, **css3**, **методология БЭМ**. Можно просто открыть в браузере). 
 
 **Figma**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/aMCLhhIgR00eS3ezLeESsT/JavaScript.-Sprint-4?node-id=0%3A1)
+* [Ссылка на макет в Figma](https://www.figma.com/file/StZjf8HnoeLdiXS7dYrLAh/JavaScript.-Sprint-4)
 
 **Картинки**
 
