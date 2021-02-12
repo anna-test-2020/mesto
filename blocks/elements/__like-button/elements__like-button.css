@@ -1,0 +1,26 @@
+.elements__like-button {
+  width: 22px;
+  height: 19px;
+  margin-left: auto;
+  background-color: transparent;
+  border: 0;
+  background-image: url('../../../images/hart-disabled.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  cursor: pointer;
+}
+
+.elements__like-button:hover {
+  background-image: url('../../../images/hart-hover.svg');
+}
+
+.elements__like-button:active {
+  background-image: url('../../../images/hart-active.svg');
+}
+   
+@media (max-width: 525px) {
+  .elements__like-button {
+
+  }
+}

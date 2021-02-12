@@ -1,0 +1,15 @@
+.elements__info {
+  min-height: 79px;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px 0 21px;
+}
+   
+@media (max-width: 450px) {
+  .elements__info {
+
+  }
+}
