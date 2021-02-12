@@ -18,9 +18,3 @@
 .elements__like-button:active {
   background-image: url('../../../images/hart-active.svg');
 }
-   
-@media (max-width: 525px) {
-  .elements__like-button {
-
-  }
-}
