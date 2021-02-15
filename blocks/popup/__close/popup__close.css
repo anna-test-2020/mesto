@@ -10,6 +10,7 @@
   position: absolute;
   right: 0;
   top: 0;
+  outline: none;
 }
 
 .popup__close:hover {
@@ -19,8 +20,8 @@
 
 @media (max-width: 550px) {
   .popup__close {
-    width: 26px;
-    height: 26px;
-    transform: translate(0px, -40px);
+    width: 19px;
+    height: 19px;
+    transform: translate(-8px, -40px);
   }
 }

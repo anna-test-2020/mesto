@@ -6,7 +6,7 @@
   line-height: 29px;
   color: #000000;
   text-decoration: none;
-  margin-right: 15px;
+  margin: 0 15px 0 0;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;

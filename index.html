@@ -31,56 +31,56 @@
       </section>
 
       <section class="elements">
-        <ul class="elements__list">
-          <li class="elements__item">
+        <div class="elements__list">
+          <div class="elements__item">
             <img class="elements__img" src="./images/karachaev.jpg" alt="фото">
             <div class="elements__info">
-              <a href="#" target="_self" class="elements__region">Карачаевск</a>
-              <button class="elements__like-button"></button>
-            </div>
-          </li>
-          <li class="elements__item">
-            <img class="elements__img" src="./images/elbrus.jpg" alt="фото">
-            <div class="elements__info">
-              <a target="_self" href="#" class="elements__region">Гора Эльбрус</a>
-              <button class="elements__like-button"></button>
-            </div>
-          </li>
-          <li class="elements__item">
-            <img class="elements__img" src="./images/dombay.jpg" alt="фото">
-            <div class="elements__info">
-              <a href="#" target="_self" class="elements__region">Домбай</a>
-              <button class="elements__like-button"></button>
-            </div>
-          </li>
-          <li class="elements__item">
-            <img class="elements__img" src="./images/elbrus.jpg" alt="фото">
-            <div class="elements__info">
-              <a href="#" target="_self" class="elements__region">Гора Эльбрус</a>
-              <button class="elements__like-button"></button>
-            </div>
-          </li>
-          <li class="elements__item">
-            <img class="elements__img" src="./images/dombay.jpg" alt="фото">
-            <div class="elements__info">
-              <a target="_self" href="#" class="elements__region">Домбай</a>
-              <button class="elements__like-button"></button>
-            </div>
-          </li>
-          <li class="elements__item">
-            <img class="elements__img" src="./images/karachaev.jpg" alt="фото">
-            <div class="elements__info">
-              <a target="_self" href="#" class="elements__region">Карачаево-Черкессия</a>
+              <h3 class="elements__region">Карачаевск</h3>
               <button type="button" aria-label="нравится" class="elements__like-button"></button>
             </div>
-          </li>                                                                               
-        </ul>
+          </div>
+          <div class="elements__item">
+            <img class="elements__img" src="./images/elbrus.jpg" alt="фото">
+            <div class="elements__info">
+              <h3 class="elements__region">Гора Эльбрус</h3>
+              <button type="button" aria-label="нравится" class="elements__like-button"></button>
+            </div>
+          </div>
+          <div class="elements__item">
+            <img class="elements__img" src="./images/dombay.jpg" alt="фото">
+            <div class="elements__info">
+              <h3 class="elements__region">Домбай</h3>
+              <button type="button" aria-label="нравится" class="elements__like-button"></button>
+            </div>
+          </div>
+          <div class="elements__item">
+            <img class="elements__img" src="./images/elbrus.jpg" alt="фото">
+            <div class="elements__info">
+              <h3 class="elements__region">Гора Эльбрус</h3>
+              <button type="button" aria-label="нравится" class="elements__like-button"></button>
+            </div>
+          </div>
+          <div class="elements__item">
+            <img class="elements__img" src="./images/dombay.jpg" alt="фото">
+            <div class="elements__info">
+              <h3 class="elements__region">Домбай</h3>
+              <button type="button" aria-label="нравится" class="elements__like-button"></button>
+            </div>
+          </div>
+          <div class="elements__item">
+            <img class="elements__img" src="./images/karachaev.jpg" alt="фото">
+            <div class="elements__info">
+              <h3 class="elements__region">Карачаево-Черкессия</h3>
+              <button type="button" aria-label="нравится" class="elements__like-button"></button>
+            </div>
+          </div>                                                                               
+        </div>
       </section>
 
     </main>
 
     <footer class="footer">
-      <p class="footer__copyright">© 2020 Mesto Russia</p>
+      <p class="footer__copyright">&copy;&nbsp;2020&nbsp;Mesto&nbsp;Russia</p>
     </footer>
 
   </div>  <!-- page -->
@@ -89,9 +89,9 @@
     <div class="popup__container">
       <button class="popup__close" type="button" aria-label="Закрыть"></button>
       <h2 class="popup__title">Редактировать профиль</h2>
-      <form class="popup__form">
-        <input class="popup__input popup__input_type_name" type="text" value="Жак-Ив Кусто">
-        <input class="popup__input popup__input_type_occupation" value="Исследователь океана" type="text">
+      <form class="popup__form" name="popup__form">
+        <input class="popup__input popup__input_type_name" name="popup__input_type_name" type="text" value="">
+        <input class="popup__input popup__input_type_occupation" name="popup__input_type_occupation" type="text" value="">
         <button class="popup__save" aria-label="Сохранить изменения" type="submit">Сохранить</button>
       </form>
     </div>

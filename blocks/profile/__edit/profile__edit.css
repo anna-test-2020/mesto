@@ -9,6 +9,7 @@
   background-size: 10px 10px;
   background-position: center;
   margin-top: 6px;
+  outline: none;
 }
 
 .profile__edit:hover {
