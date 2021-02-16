@@ -15,27 +15,25 @@ let nameInput = formElement.querySelector('.popup__input_type_name');
 let jobInput = formElement.querySelector('.popup__input_type_occupation');
 
 let openPopup = function() {
-    popup.classList.add('popup_opened');
-    nameInput.value = profileName.textContent;
-    jobInput.value = profileJob.textContent;  
+  popup.classList.add('popup_opened');
+  nameInput.value = profileName.textContent;
+  jobInput.value = profileJob.textContent;  
 }
 
 let closePopup = function() {
-    if(popup.classList.contains('popup_opened')){
-        popup.classList.remove('popup_opened');
-    }
+  popup.classList.remove('popup_opened');
 }
 
 // Обработчик «отправки» формы
 function formSubmitHandler (evt) {
-    evt.preventDefault(); // Эта строчка отменяет стандартную отправку формы.
-    // Получите значение полей jobInput и nameInput из свойства value
-    let nameVal = nameInput.value;
-    let jobVal = jobInput.value;
-    // Вставьте новые значения с помощью textContent
-    profileName.textContent = nameVal;
-    profileJob.textContent = jobVal;
-    closePopup();
+  evt.preventDefault(); // Эта строчка отменяет стандартную отправку формы.
+  // Получите значение полей jobInput и nameInput из свойства value
+  let nameVal = nameInput.value;
+  let jobVal = jobInput.value;
+  // Вставьте новые значения с помощью textContent
+  profileName.textContent = nameVal;
+  profileJob.textContent = jobVal;
+  closePopup();
 }
 
 popupOpenButton.addEventListener('click', openPopup);
