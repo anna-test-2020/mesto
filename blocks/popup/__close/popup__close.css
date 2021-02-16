@@ -22,6 +22,7 @@
   .popup__close {
     width: 19px;
     height: 19px;
+    background-image: url('../../../images/close-icon-mobil.svg');
     transform: translate(-8px, -40px);
   }
 }

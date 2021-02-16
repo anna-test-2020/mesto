@@ -14,14 +14,15 @@ let formElement = popup.querySelector('.popup__form');
 let nameInput = formElement.querySelector('.popup__input_type_name');
 let jobInput = formElement.querySelector('.popup__input_type_occupation');
 
-let togglePopup = function() {
-if(!popup.classList.contains('popup_opened')){
+let openPopup = function() {
     popup.classList.add('popup_opened');
     nameInput.value = profileName.textContent;
-    jobInput.value = profileJob.textContent;
-    }
-else {
-    popup.classList.remove('popup_opened');
+    jobInput.value = profileJob.textContent;  
+}
+
+let closePopup = function() {
+    if(popup.classList.contains('popup_opened')){
+        popup.classList.remove('popup_opened');
     }
 }
 
@@ -34,11 +35,11 @@ function formSubmitHandler (evt) {
     // Вставьте новые значения с помощью textContent
     profileName.textContent = nameVal;
     profileJob.textContent = jobVal;
-    togglePopup();
+    closePopup();
 }
 
-popupOpenButton.addEventListener('click', togglePopup);
-popupCloseButton.addEventListener('click', togglePopup);
+popupOpenButton.addEventListener('click', openPopup);
+popupCloseButton.addEventListener('click', closePopup);
 
 // Прикрепляем обработчик к форме: он будет следить за событием “submit” - «отправка»
 formElement.addEventListener('submit', formSubmitHandler);
