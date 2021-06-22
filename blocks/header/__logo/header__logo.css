@@ -7,9 +7,8 @@
   background-repeat: no-repeat;
   background-image: url('../../../images/logo.svg');
 }
-
 .header__logo:hover {
-  background-image: url('../../../images/logo-hover.svg');
+  opacity: 0.8;
 }
 
 @media (max-width: 450px) {

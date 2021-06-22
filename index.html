@@ -7,7 +7,7 @@
   <meta name="keywords" content="HTML5, CSS">
   <meta name="author" content="anna">
   <link rel="stylesheet" href="./pages/index.css">
-  <title>Жак-Ив Кусто</title>
+  <title>Проект 4: Место</title>
 </head>
 <body class="page">
   <div class="page__container">
@@ -25,77 +25,77 @@
             <h1 class="profile__name">Жак-Ив Кусто</h1>
             <button class="profile__edit" type="button" aria-label="Редактировать"></button>
           </div>
-          <h2 class="profile__occupation">Исследователь океана</h2>
+          <p class="profile__occupation">Исследователь океана</p>
         </div>
         <button class="profile__add-button" type="button" aria-label="Добавить"></button>
       </section>
 
-      <section class="elements">
-        <ul class="elements__list">
-          <li class="elements__item">
-            <img class="elements__img" src="./images/karachaev.jpg" alt="фото">
-            <div class="elements__info">
-              <a href="#" target="_self" class="elements__region">Карачаевск</a>
-              <button class="elements__like-button"></button>
+      <section class="cards">
+        <div class="cards__list">
+          <article class="cards__item">
+            <img class="cards__img" src="./images/karachaev.jpg" alt="Карачаевск фото">
+            <div class="cards__info">
+              <h2 class="cards__region">Карачаевск</h2>
+              <button type="button" aria-label="нравится" class="cards__like-button"></button>
             </div>
-          </li>
-          <li class="elements__item">
-            <img class="elements__img" src="./images/elbrus.jpg" alt="фото">
-            <div class="elements__info">
-              <a target="_self" href="#" class="elements__region">Гора Эльбрус</a>
-              <button class="elements__like-button"></button>
+          </article>
+          <article class="cards__item">
+            <img class="cards__img" src="./images/elbrus.jpg" alt="Эльбрус фото">
+            <div class="cards__info">
+              <h2 class="cards__region">Гора Эльбрус</h2>
+              <button type="button" aria-label="нравится" class="cards__like-button"></button>
             </div>
-          </li>
-          <li class="elements__item">
-            <img class="elements__img" src="./images/dombay.jpg" alt="фото">
-            <div class="elements__info">
-              <a href="#" target="_self" class="elements__region">Домбай</a>
-              <button class="elements__like-button"></button>
+          </article>
+          <article class="cards__item">
+            <img class="cards__img" src="./images/dombay.jpg" alt="Домбай фото">
+            <div class="cards__info">
+              <h2 class="cards__region">Домбай</h2>
+              <button type="button" aria-label="нравится" class="cards__like-button"></button>
             </div>
-          </li>
-          <li class="elements__item">
-            <img class="elements__img" src="./images/elbrus.jpg" alt="фото">
-            <div class="elements__info">
-              <a href="#" target="_self" class="elements__region">Гора Эльбрус</a>
-              <button class="elements__like-button"></button>
+          </article>
+          <article class="cards__item">
+            <img class="cards__img" src="./images/elbrus.jpg" alt="Эльбрус фото">
+            <div class="cards__info">
+              <h2 class="cards__region">Гора Эльбрус</h2>
+              <button type="button" aria-label="нравится" class="cards__like-button"></button>
             </div>
-          </li>
-          <li class="elements__item">
-            <img class="elements__img" src="./images/dombay.jpg" alt="фото">
-            <div class="elements__info">
-              <a target="_self" href="#" class="elements__region">Домбай</a>
-              <button class="elements__like-button"></button>
+          </article>
+          <article class="cards__item">
+            <img class="cards__img" src="./images/dombay.jpg" alt="Домбай фото">
+            <div class="cards__info">
+              <h2 class="cards__region">Домбай</h2>
+              <button type="button" aria-label="нравится" class="cards__like-button"></button>
             </div>
-          </li>
-          <li class="elements__item">
-            <img class="elements__img" src="./images/karachaev.jpg" alt="фото">
-            <div class="elements__info">
-              <a target="_self" href="#" class="elements__region">Карачаево-Черкессия</a>
-              <button type="button" aria-label="нравится" class="elements__like-button"></button>
+          </article>
+          <article class="cards__item">
+            <img class="cards__img" src="./images/karachaev.jpg" alt="Карачаево-Черкессия фото">
+            <div class="cards__info">
+              <h2 class="cards__region">Карачаево-Черкессия</h2>
+              <button type="button" aria-label="нравится" class="cards__like-button"></button>
             </div>
-          </li>                                                                               
-        </ul>
+          </div>                                                                               
+        </div>
       </section>
 
     </main>
 
     <footer class="footer">
-      <p class="footer__copyright">© 2020 Mesto Russia</p>
+      <p class="footer__copyright">&copy;&nbsp;2020&nbsp;Mesto&nbsp;Russia</p>
     </footer>
 
   </div>  <!-- page -->
 
-  <section class="popup">
+  <article class="popup">
     <div class="popup__container">
       <button class="popup__close" type="button" aria-label="Закрыть"></button>
       <h2 class="popup__title">Редактировать профиль</h2>
-      <form class="popup__form">
-        <input class="popup__input popup__input_type_name" type="text" value="Жак-Ив Кусто">
-        <input class="popup__input popup__input_type_occupation" value="Исследователь океана" type="text">
+      <form class="popup__form" name="popup__form">
+        <input class="popup__input popup__input_type_name" name="popup__input_type_name" type="text" value="">
+        <input class="popup__input popup__input_type_occupation" name="popup__input_type_occupation" type="text" value="">
         <button class="popup__save" aria-label="Сохранить изменения" type="submit">Сохранить</button>
       </form>
     </div>
-  </section>
+  </article>
 
   <script src="./scripts/main.js"></script>
 </body>

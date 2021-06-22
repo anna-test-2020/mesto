@@ -19,13 +19,13 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-@import url(../blocks/elements/elements.css);
-@import url(../blocks/elements/__list/elements__list.css);
-@import url(../blocks/elements/__item/elements__item.css);
-@import url(../blocks/elements/__img/elements__img.css);
-@import url(../blocks/elements/__info/elements__info.css);
-@import url(../blocks/elements/__region/elements__region.css);
-@import url(../blocks/elements/__like-button/elements__like-button.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__list/cards__list.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__img/cards__img.css);
+@import url(../blocks/cards/__info/cards__info.css);
+@import url(../blocks/cards/__region/cards__region.css);
+@import url(../blocks/cards/__like-button/cards__like-button.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__close/popup__close.css);
